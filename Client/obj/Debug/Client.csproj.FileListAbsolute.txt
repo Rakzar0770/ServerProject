@@ -1,0 +1,8 @@
+C:\Users\acrd_\source\repos\ServerApp\Client\bin\Debug\Client.exe.config
+C:\Users\acrd_\source\repos\ServerApp\Client\bin\Debug\Client.exe
+C:\Users\acrd_\source\repos\ServerApp\Client\bin\Debug\Client.pdb
+C:\Users\acrd_\source\repos\ServerApp\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\acrd_\source\repos\ServerApp\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\acrd_\source\repos\ServerApp\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\acrd_\source\repos\ServerApp\Client\obj\Debug\Client.exe
+C:\Users\acrd_\source\repos\ServerApp\Client\obj\Debug\Client.pdb

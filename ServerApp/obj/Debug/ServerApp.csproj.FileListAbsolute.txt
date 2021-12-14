@@ -1,0 +1,8 @@
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\obj\Debug\ServerApp.exe
+C:\Users\acrd_\source\repos\ServerApp\ServerApp\obj\Debug\ServerApp.pdb
