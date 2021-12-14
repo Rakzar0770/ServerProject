@@ -72,6 +72,13 @@ namespace ServerApp
             var udpSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
 
             udpSocket.Bind(udpEndPint);
+            var buffer = new byte[256];
+            var size = 0;
+            var data = new StringBuilder();
+
+            //создаём экземпляр адреса (сохраняем) будет сохранён алрес клиента
+            EndPoint senderEndPoint = new IPEndPoint(IPAddress.Any, 0);
+            size = udpSocket.ReceiveFrom(buffer, ref senderEndPoint);
 
 
 
