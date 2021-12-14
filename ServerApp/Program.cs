@@ -29,6 +29,36 @@ namespace ServerApp
             //Создаём процесс прослушивания
             while (true)
             {
+                //создаётся новый сокет для подключения конкретного клиента
+                var listener = tcpSocket.Accept(); // обработали данные, отправили ответ и уничтожили
+
+                //буффер для сообщения байтовый массив
+                var buffer = new byte[256];
+
+                //количество реально получеснных байт
+                var size = 0;
+                var data = new StringBuilder();
+                do
+                {
+                    size = listener.Receive(buffer);
+
+                    //добавляем данные (перекодируем из listener и добавляем в строку)
+                    data.Append(Encoding.UTF8.GetString(buffer,0,size));
+
+
+                } while (listener.Available > 0);
+
+                Console.WriteLine(data);
+
+                listener.Send(Encoding.UTF8.GetBytes("Успех"));
+
+                //закрываем подключение
+                listener.Shutdown(SocketShutdown.Both);
+                listener.Close();
+
+
+
+
 
             }
 
